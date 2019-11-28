@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Smile</title>
+    <style>
+    body{
+    background-color: #333;
+    }
+    .smile{
+width: 200px;
+height: 200px;
+background-color: yellow;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+border-radius: 50%;
+text-align: center;
+font-size: 30px;
+line-height: 100px;
+border-top: 20px solid black;
+color: blue;
+    }
+    .smile::before{
+content: "\25C9";
+margin-top: 100;
+border-right: 2px solid black;
+padding:10px; 
+    }
+    .smile::after{
+    content: "\25C9";  
+    padding:10px; 
+    border-left: 2px solid black;
+    }
+    .smile:hover{
+        background-color: aqua;
+    }
+    </style>
+</head>
+<body>
+   <div class="smile">
+
+
+   </div> 
+</body>
+</html>
